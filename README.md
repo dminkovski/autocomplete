@@ -1,5 +1,11 @@
+## AngularJS autocomplete directive
+
 This project contains the autocomplete directive and template for AngularJS projects.
 In order to use an input autocomplete with angularJS, I implemented a directive that contains the URL and other parameters in order to be easy to use.
+Because of popularity the code and template are adopted to the bootstrap framework & fontawesome which can be downloaded from here.
+
+* Bootstrap: http://getbootstrap.com
+* FontAwesome: http://fortawesome.github.io/Font-Awesome/
 
 ## Usage
 

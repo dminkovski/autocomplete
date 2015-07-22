@@ -1,8 +1,4 @@
 angular.module('input-autocomplete',[])
-.controller('autocompleteController',function($scope)
-{
-	
-})
 .directive('autocomplete',function()
 {
 	var link = function($scope,element,attr)
@@ -157,11 +153,10 @@ angular.module('input-autocomplete',[])
 	return{
 		restrict: 'E',
 		transclude: true,
-		templateUrl: '/public/partials/autocomplete.html',
+		templateUrl: 'autocomplete.html',
 		scope : {
 			'id': ' = id',
-			'url' : '= url',
-			'link' : '=href'
+			'url' : '= url'
 		},
 		link : link	
 	};

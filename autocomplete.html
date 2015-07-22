@@ -1,0 +1,11 @@
+<div class="dropdown-menu-wrapper">
+	<div ng-transclude>
+	</div>
+	<ul class="dropdown-menu">
+		<li index="{{$index}}" class="result" data-ng-repeat="result in results">
+			<a  value="{{result.id != undefined ? result.id : result.value}}">{{result.value}}</a>
+		</li>
+		<li data-ng-if="results.length <= 0"><a>No match found</a></li>
+	</ul>
+	{{test}}
+</div>

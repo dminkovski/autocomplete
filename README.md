@@ -9,17 +9,17 @@ Because of popularity the code and template are adopted to the bootstrap framewo
 
 ## Usage
 
-You can insert the autocomplete directive tag and provide an id, url and optionally href object to it.
-The directive takes 3 parameters.
+You can simply insert the autocomplete directive tag anywhere in your html.
+The directive takes 2 parameters.
 
-* id: id of the object
-* url: url to send the autocomplete request to
+* id: object id
+* url: request url
 
 ```html
 <autocomplete id="navsearch" url="autocomplete">
 	<div class="input-group">
 		<span class="input-group-addon"><i class="fa fa-search"></i></span>
-  		<input type="text" class="form-control" placeholder="Start searching with a course code or a teacher's name">
+  		<input type="text" class="form-control" placeholder="Type something">
   	</div>
 </autocomplete>  
 ```
